@@ -1,0 +1,7 @@
+- Well-Lit
+- Naturally-Lit
+- Dim-Light
+- Pitch Black Room with A Flash Light
+https://youtu.be/sHr-xVtIpsg 
+- In a Well-Lit area with a Yellow background.
+https://youtu.be/7UnrQeDr0o8
