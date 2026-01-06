@@ -1,0 +1,33 @@
+[0.012s] Invoking command in '/home/namir/GitHub_task/build/chatroom': /usr/bin/cmake /home/namir/GitHub_task/ROS_tasks/chatroom -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/namir/GitHub_task/install/chatroom
+[0.242s] -- The C compiler identification is GNU 11.4.0
+[0.389s] -- The CXX compiler identification is GNU 11.4.0
+[0.401s] -- Detecting C compiler ABI info
+[0.469s] -- Detecting C compiler ABI info - done
+[0.477s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.477s] -- Detecting C compile features
+[0.478s] -- Detecting C compile features - done
+[0.482s] -- Detecting CXX compiler ABI info
+[0.557s] -- Detecting CXX compiler ABI info - done
+[0.565s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.565s] -- Detecting CXX compile features
+[0.566s] -- Detecting CXX compile features - done
+[0.574s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.575s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.575s]   has asked CMake to find a package configuration file provided by
+[0.575s]   "ament_cmake", but CMake did not find one.
+[0.575s] 
+[0.575s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.575s]   any of the following names:
+[0.575s] 
+[0.575s]     ament_cmakeConfig.cmake
+[0.575s]     ament_cmake-config.cmake
+[0.575s] 
+[0.575s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.575s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.575s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.575s]   has been installed.
+[0.575s] 
+[0.575s] [0m
+[0.575s] -- Configuring incomplete, errors occurred!
+[0.575s] See also "/home/namir/GitHub_task/build/chatroom/CMakeFiles/CMakeOutput.log".
+[0.578s] Invoked command in '/home/namir/GitHub_task/build/chatroom' returned '1': /usr/bin/cmake /home/namir/GitHub_task/ROS_tasks/chatroom -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/namir/GitHub_task/install/chatroom

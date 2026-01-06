@@ -1,0 +1,2 @@
+Invoking command in '/home/namir/GitHub_task/build/chatroom': /usr/bin/cmake /home/namir/GitHub_task/ROS_tasks/chatroom -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/namir/GitHub_task/install/chatroom
+Invoked command in '/home/namir/GitHub_task/build/chatroom' returned '1': /usr/bin/cmake /home/namir/GitHub_task/ROS_tasks/chatroom -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/namir/GitHub_task/install/chatroom
