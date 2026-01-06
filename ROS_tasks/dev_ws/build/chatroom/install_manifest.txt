@@ -1,0 +1,17 @@
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/lib/chatroom/chat_node
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/launch/chat_launch.py
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/ament_index/resource_index/package_run_dependencies/chatroom
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/ament_index/resource_index/parent_prefix_path/chatroom
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/ament_prefix_path.sh
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/ament_prefix_path.dsv
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/path.sh
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/path.dsv
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.bash
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.sh
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.zsh
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.dsv
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/package.dsv
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/ament_index/resource_index/packages/chatroom
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/cmake/chatroomConfig.cmake
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/cmake/chatroomConfig-version.cmake
+/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/package.xml

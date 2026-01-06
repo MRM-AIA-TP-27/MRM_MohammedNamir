@@ -1,0 +1,6 @@
+Invoking command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/namir/GitHub_task/ROS_tasks/dev_ws/src/chatroom -DCMAKE_INSTALL_PREFIX=/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom
+Invoked command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/namir/GitHub_task/ROS_tasks/dev_ws/src/chatroom -DCMAKE_INSTALL_PREFIX=/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom
+Invoking command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom -- -j8 -l8
+Invoked command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom -- -j8 -l8
+Invoking command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom
+Invoked command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom

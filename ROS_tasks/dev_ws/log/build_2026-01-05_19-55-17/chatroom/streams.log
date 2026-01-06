@@ -1,0 +1,41 @@
+[0.020s] Invoking command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom -- -j8 -l8
+[0.132s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.280s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.332s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.336s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.348s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.447s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.450s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.561s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.700s] -- Configuring done
+[0.713s] -- Generating done
+[0.716s] -- Build files have been written to: /home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom
+[0.741s] [35m[1mConsolidate compiler generated dependencies of target chat_node[0m
+[0.784s] [ 50%] [32mBuilding CXX object CMakeFiles/chat_node.dir/src/chat_node.cpp.o[0m
+[9.046s] [100%] [32m[1mLinking CXX executable chat_node[0m
+[9.403s] [100%] Built target chat_node
+[9.412s] Invoked command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom -- -j8 -l8
+[9.421s] Invoking command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom
+[9.427s] -- Install configuration: ""
+[9.427s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/lib/chatroom/chat_node
+[9.430s] -- Set runtime path of "/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/lib/chatroom/chat_node" to ""
+[9.430s] -- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/launch
+[9.430s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/launch/chat_launch.py
+[9.430s] -- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/ament_index/resource_index/package_run_dependencies/chatroom
+[9.430s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/ament_index/resource_index/parent_prefix_path/chatroom
+[9.431s] -- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/ament_prefix_path.sh
+[9.431s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/ament_prefix_path.dsv
+[9.431s] -- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/path.sh
+[9.431s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/path.dsv
+[9.431s] -- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.bash
+[9.431s] -- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.sh
+[9.431s] -- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.zsh
+[9.431s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.dsv
+[9.431s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/package.dsv
+[9.431s] -- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/ament_index/resource_index/packages/chatroom
+[9.431s] -- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/cmake/chatroomConfig.cmake
+[9.432s] -- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/cmake/chatroomConfig-version.cmake
+[9.432s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/package.xml
+[9.433s] Invoked command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom

@@ -1,0 +1,8 @@
+source;share/chatroom/hook/cmake_prefix_path.ps1
+source;share/chatroom/hook/cmake_prefix_path.dsv
+source;share/chatroom/hook/cmake_prefix_path.sh
+source;share/chatroom/local_setup.bash
+source;share/chatroom/local_setup.dsv
+source;share/chatroom/local_setup.ps1
+source;share/chatroom/local_setup.sh
+source;share/chatroom/local_setup.zsh

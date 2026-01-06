@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000155] (chatroom) JobQueued: {'identifier': 'chatroom', 'dependencies': OrderedDict()}
+[0.000230] (chatroom) JobStarted: {'identifier': 'chatroom'}
+[0.016201] (chatroom) JobProgress: {'identifier': 'chatroom', 'progress': 'cmake'}
+[0.017749] (chatroom) JobProgress: {'identifier': 'chatroom', 'progress': 'build'}
+[0.017789] (chatroom) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom', '--', '-j8', '-l8'], 'cwd': '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'namir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/namir'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2011'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9a04ba7ae2459ad902c790d9695beede'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/namir/GitHub_task/ROS_tasks/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'namir'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'namir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/namir/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/namir:@/tmp/.ICE-unix/2011,unix/namir:/tmp/.ICE-unix/2011'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5b6f8ba4_371e_4510_8596_94eb68abdb2c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.165'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9a04ba7ae2459ad902c790d9695beede'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom:/opt/ros/humble')]), 'shell': False}
+[0.099372] (-) TimerEvent: {}
+[0.131856] (chatroom) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199478] (-) TimerEvent: {}
+[0.280602] (chatroom) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299584] (-) TimerEvent: {}
+[0.331797] (chatroom) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.336326] (chatroom) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.347869] (chatroom) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.367114] (chatroom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.389495] (chatroom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399712] (-) TimerEvent: {}
+[0.447524] (chatroom) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.450157] (chatroom) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499832] (-) TimerEvent: {}
+[0.561018] (chatroom) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600038] (-) TimerEvent: {}
+[0.700216] (-) TimerEvent: {}
+[0.700597] (chatroom) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.713109] (chatroom) StdoutLine: {'line': b'-- Generating done\n'}
+[0.716546] (chatroom) StdoutLine: {'line': b'-- Build files have been written to: /home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom\n'}
+[0.741255] (chatroom) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target chat_node\x1b[0m\n'}
+[0.784626] (chatroom) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/chat_node.dir/src/chat_node.cpp.o\x1b[0m\n'}
+[0.800306] (-) TimerEvent: {}
+[0.900629] (-) TimerEvent: {}
+[1.000880] (-) TimerEvent: {}
+[1.101169] (-) TimerEvent: {}
+[1.201381] (-) TimerEvent: {}
+[1.301673] (-) TimerEvent: {}
+[1.401941] (-) TimerEvent: {}
+[1.502202] (-) TimerEvent: {}
+[1.602459] (-) TimerEvent: {}
+[1.702723] (-) TimerEvent: {}
+[1.802994] (-) TimerEvent: {}
+[1.903211] (-) TimerEvent: {}
+[2.003469] (-) TimerEvent: {}
+[2.103735] (-) TimerEvent: {}
+[2.204002] (-) TimerEvent: {}
+[2.304282] (-) TimerEvent: {}
+[2.404584] (-) TimerEvent: {}
+[2.504850] (-) TimerEvent: {}
+[2.605127] (-) TimerEvent: {}
+[2.705376] (-) TimerEvent: {}
+[2.805650] (-) TimerEvent: {}
+[2.905924] (-) TimerEvent: {}
+[3.006220] (-) TimerEvent: {}
+[3.106524] (-) TimerEvent: {}
+[3.206805] (-) TimerEvent: {}
+[3.307076] (-) TimerEvent: {}
+[3.407354] (-) TimerEvent: {}
+[3.507624] (-) TimerEvent: {}
+[3.607896] (-) TimerEvent: {}
+[3.708170] (-) TimerEvent: {}
+[3.808435] (-) TimerEvent: {}
+[3.908706] (-) TimerEvent: {}
+[4.008984] (-) TimerEvent: {}
+[4.109263] (-) TimerEvent: {}
+[4.209545] (-) TimerEvent: {}
+[4.309819] (-) TimerEvent: {}
+[4.410115] (-) TimerEvent: {}
+[4.510392] (-) TimerEvent: {}
+[4.610656] (-) TimerEvent: {}
+[4.710930] (-) TimerEvent: {}
+[4.811226] (-) TimerEvent: {}
+[4.911528] (-) TimerEvent: {}
+[5.011872] (-) TimerEvent: {}
+[5.112191] (-) TimerEvent: {}
+[5.212460] (-) TimerEvent: {}
+[5.312735] (-) TimerEvent: {}
+[5.413009] (-) TimerEvent: {}
+[5.513289] (-) TimerEvent: {}
+[5.613566] (-) TimerEvent: {}
+[5.713856] (-) TimerEvent: {}
+[5.814163] (-) TimerEvent: {}
+[5.914471] (-) TimerEvent: {}
+[6.014783] (-) TimerEvent: {}
+[6.115041] (-) TimerEvent: {}
+[6.215305] (-) TimerEvent: {}
+[6.315558] (-) TimerEvent: {}
+[6.415867] (-) TimerEvent: {}
+[6.516171] (-) TimerEvent: {}
+[6.616456] (-) TimerEvent: {}
+[6.716722] (-) TimerEvent: {}
+[6.816989] (-) TimerEvent: {}
+[6.917233] (-) TimerEvent: {}
+[7.017496] (-) TimerEvent: {}
+[7.117799] (-) TimerEvent: {}
+[7.218230] (-) TimerEvent: {}
+[7.318507] (-) TimerEvent: {}
+[7.418780] (-) TimerEvent: {}
+[7.519039] (-) TimerEvent: {}
+[7.619280] (-) TimerEvent: {}
+[7.719548] (-) TimerEvent: {}
+[7.819815] (-) TimerEvent: {}
+[7.920084] (-) TimerEvent: {}
+[8.020355] (-) TimerEvent: {}
+[8.120605] (-) TimerEvent: {}
+[8.220870] (-) TimerEvent: {}
+[8.321160] (-) TimerEvent: {}
+[8.421435] (-) TimerEvent: {}
+[8.521821] (-) TimerEvent: {}
+[8.622408] (-) TimerEvent: {}
+[8.722683] (-) TimerEvent: {}
+[8.822969] (-) TimerEvent: {}
+[8.923250] (-) TimerEvent: {}
+[9.023536] (-) TimerEvent: {}
+[9.046198] (chatroom) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable chat_node\x1b[0m\n'}
+[9.123668] (-) TimerEvent: {}
+[9.223934] (-) TimerEvent: {}
+[9.324206] (-) TimerEvent: {}
+[9.402699] (chatroom) StdoutLine: {'line': b'[100%] Built target chat_node\n'}
+[9.412009] (chatroom) CommandEnded: {'returncode': 0}
+[9.413316] (chatroom) JobProgress: {'identifier': 'chatroom', 'progress': 'install'}
+[9.420848] (chatroom) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom'], 'cwd': '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'namir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/namir'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2011'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9a04ba7ae2459ad902c790d9695beede'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/namir/GitHub_task/ROS_tasks/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'namir'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'namir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/namir/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/namir:@/tmp/.ICE-unix/2011,unix/namir:/tmp/.ICE-unix/2011'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5b6f8ba4_371e_4510_8596_94eb68abdb2c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.165'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9a04ba7ae2459ad902c790d9695beede'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom:/opt/ros/humble')]), 'shell': False}
+[9.424274] (-) TimerEvent: {}
+[9.426882] (chatroom) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.427402] (chatroom) StdoutLine: {'line': b'-- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/lib/chatroom/chat_node\n'}
+[9.430081] (chatroom) StdoutLine: {'line': b'-- Set runtime path of "/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/lib/chatroom/chat_node" to ""\n'}
+[9.430193] (chatroom) StdoutLine: {'line': b'-- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/launch\n'}
+[9.430266] (chatroom) StdoutLine: {'line': b'-- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/launch/chat_launch.py\n'}
+[9.430425] (chatroom) StdoutLine: {'line': b'-- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/ament_index/resource_index/package_run_dependencies/chatroom\n'}
+[9.430610] (chatroom) StdoutLine: {'line': b'-- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/ament_index/resource_index/parent_prefix_path/chatroom\n'}
+[9.430701] (chatroom) StdoutLine: {'line': b'-- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/ament_prefix_path.sh\n'}
+[9.430871] (chatroom) StdoutLine: {'line': b'-- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/ament_prefix_path.dsv\n'}
+[9.430952] (chatroom) StdoutLine: {'line': b'-- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/path.sh\n'}
+[9.431019] (chatroom) StdoutLine: {'line': b'-- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/path.dsv\n'}
+[9.431105] (chatroom) StdoutLine: {'line': b'-- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.bash\n'}
+[9.431275] (chatroom) StdoutLine: {'line': b'-- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.sh\n'}
+[9.431349] (chatroom) StdoutLine: {'line': b'-- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.zsh\n'}
+[9.431414] (chatroom) StdoutLine: {'line': b'-- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.dsv\n'}
+[9.431511] (chatroom) StdoutLine: {'line': b'-- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/package.dsv\n'}
+[9.431572] (chatroom) StdoutLine: {'line': b'-- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/ament_index/resource_index/packages/chatroom\n'}
+[9.431633] (chatroom) StdoutLine: {'line': b'-- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/cmake/chatroomConfig.cmake\n'}
+[9.431707] (chatroom) StdoutLine: {'line': b'-- Up-to-date: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/cmake/chatroomConfig-version.cmake\n'}
+[9.431765] (chatroom) StdoutLine: {'line': b'-- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/package.xml\n'}
+[9.433034] (chatroom) CommandEnded: {'returncode': 0}
+[9.455239] (chatroom) JobEnded: {'identifier': 'chatroom', 'rc': 0}
+[9.455871] (-) EventReactorShutdown: {}

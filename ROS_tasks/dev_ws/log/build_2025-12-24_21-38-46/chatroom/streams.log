@@ -1,0 +1,62 @@
+[0.008s] Invoking command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/namir/GitHub_task/ROS_tasks/dev_ws/src/chatroom -DCMAKE_INSTALL_PREFIX=/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.120s] -- The CXX compiler identification is GNU 11.4.0
+[0.127s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.196s] -- Detecting CXX compiler ABI info
+[0.266s] -- Detecting CXX compiler ABI info - done
+[0.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.274s] -- Detecting CXX compile features
+[0.274s] -- Detecting CXX compile features - done
+[0.276s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.406s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.478s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.511s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.514s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.521s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.531s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.579s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.581s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.641s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.662s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.692s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.697s] -- Looking for pthread.h
+[0.755s] -- Looking for pthread.h - found
+[0.756s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.819s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.820s] -- Found Threads: TRUE  
+[0.926s] -- Configuring done
+[0.934s] -- Generating done
+[0.937s] -- Build files have been written to: /home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom
+[0.945s] Invoked command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/namir/GitHub_task/ROS_tasks/dev_ws/src/chatroom -DCMAKE_INSTALL_PREFIX=/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom
+[0.947s] Invoking command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom -- -j8 -l8
+[0.987s] [ 50%] [32mBuilding CXX object CMakeFiles/chat_node.dir/src/chat_node.cpp.o[0m
+[9.091s] [100%] [32m[1mLinking CXX executable chat_node[0m
+[9.429s] [100%] Built target chat_node
+[9.439s] Invoked command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom -- -j8 -l8
+[9.447s] Invoking command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom
+[9.454s] -- Install configuration: ""
+[9.454s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/lib/chatroom/chat_node
+[9.456s] -- Set runtime path of "/home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/lib/chatroom/chat_node" to ""
+[9.457s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/launch
+[9.457s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/launch/chat_launch.py
+[9.457s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/ament_index/resource_index/package_run_dependencies/chatroom
+[9.457s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/ament_index/resource_index/parent_prefix_path/chatroom
+[9.457s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/ament_prefix_path.sh
+[9.457s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/ament_prefix_path.dsv
+[9.457s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/path.sh
+[9.457s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/environment/path.dsv
+[9.457s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.bash
+[9.457s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.sh
+[9.458s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.zsh
+[9.458s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/local_setup.dsv
+[9.458s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/package.dsv
+[9.458s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/ament_index/resource_index/packages/chatroom
+[9.458s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/cmake/chatroomConfig.cmake
+[9.458s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/cmake/chatroomConfig-version.cmake
+[9.458s] -- Installing: /home/namir/GitHub_task/ROS_tasks/dev_ws/install/chatroom/share/chatroom/package.xml
+[9.460s] Invoked command in '/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom

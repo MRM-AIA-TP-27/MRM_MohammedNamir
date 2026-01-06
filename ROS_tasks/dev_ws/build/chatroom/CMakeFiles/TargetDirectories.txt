@@ -1,0 +1,10 @@
+/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom/CMakeFiles/uninstall.dir
+/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom/CMakeFiles/chatroom_uninstall.dir
+/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom/CMakeFiles/chat_node.dir
+/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom/CMakeFiles/test.dir
+/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom/CMakeFiles/edit_cache.dir
+/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom/CMakeFiles/rebuild_cache.dir
+/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom/CMakeFiles/list_install_components.dir
+/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom/CMakeFiles/install.dir
+/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom/CMakeFiles/install/local.dir
+/home/namir/GitHub_task/ROS_tasks/dev_ws/build/chatroom/CMakeFiles/install/strip.dir

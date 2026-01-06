@@ -1,0 +1,4 @@
+source;share/chatroom/local_setup.bash
+source;share/chatroom/local_setup.dsv
+source;share/chatroom/local_setup.sh
+source;share/chatroom/local_setup.zsh
